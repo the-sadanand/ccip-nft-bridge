@@ -1,0 +1,15 @@
+[2026-07-04T18:32:10.118Z] [INFO] === Starting transfer 05c560fb-e176-449e-892e-735ed1be2b03 ===
+[2026-07-04T18:32:10.148Z] [INFO] tokenId=1 from=avalanche-fuji to=arbitrum-sepolia receiver=0x6ef313Dc334296423659D2cc1DBB4294Cf22316F
+[2026-07-04T18:32:10.268Z] [INFO] Transfer record 05c560fb-e176-449e-892e-735ed1be2b03 created with status "initiated".
+[2026-07-04T18:32:10.538Z] [INFO] Verifying ownership of tokenId 1 on Avalanche Fuji...
+[2026-07-04T18:32:11.988Z] [INFO] Estimating CCIP transfer cost to Arbitrum Sepolia...
+[2026-07-04T18:32:12.428Z] [INFO] Estimated LINK fee: 0.187452193810022 LINK
+[2026-07-04T18:32:12.468Z] [INFO] Submitting sendNFT(destinationChainSelector=3478487238524512106, receiver=0x6ef313Dc334296423659D2cc1DBB4294Cf22316F, tokenId=1) on Avalanche Fuji...
+[2026-07-04T18:32:15.038Z] [INFO] Transaction submitted. Hash: 0xe19e9e07dc3a64e6137bd915810d9f43da44fcf57d5ad8f5b39cc63c48ec3c55
+[2026-07-04T18:32:19.728Z] [INFO] Source transaction confirmed in block 41738215.
+[2026-07-04T18:32:19.748Z] [INFO] CCIP messageId: 0x81939a6b94d7675b8cc49a465f528cde70c655382ec5687aa5c69c157de632cf
+[2026-07-04T18:32:19.758Z] [INFO] Track delivery at: https://ccip.chain.link/msg/0x81939a6b94d7675b8cc49a465f528cde70c655382ec5687aa5c69c157de632cf
+[2026-07-04T18:32:19.778Z] [INFO] === Transfer 05c560fb-e176-449e-892e-735ed1be2b03 initiated successfully ===
+[2026-07-04T18:32:19.788Z] [INFO] Source tx: https://testnet.snowtrace.io/tx/0xe19e9e07dc3a64e6137bd915810d9f43da44fcf57d5ad8f5b39cc63c48ec3c55
+[2026-07-04T18:32:19.808Z] [INFO] Note: 'completed' here means the source-chain send transaction succeeded. Cross-chain delivery/minting on the destination chain happens asynchronously via the Chainlink CCIP network -- check the CCIP Explorer link above for final status.
+[2026-07-04T18:41:30.118Z] [INFO] [05c560fb-e176-449e-892e-735ed1be2b03] tokenId 1 minted on Arbitrum Sepolia, owner=0x6ef313Dc334296423659D2cc1DBB4294Cf22316F

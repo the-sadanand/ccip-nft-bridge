@@ -1,1 +1,20 @@
-[]
+[
+  {
+    "transferId": "05c560fb-e176-449e-892e-735ed1be2b03",
+    "tokenId": "1",
+    "sourceChain": "avalanche-fuji",
+    "destinationChain": "arbitrum-sepolia",
+    "sender": "0xd5569213b4D9811DeA46bF11e192E7Da68bF4400",
+    "receiver": "0x6ef313Dc334296423659D2cc1DBB4294Cf22316F",
+    "ccipMessageId": "0x81939a6b94d7675b8cc49a465f528cde70c655382ec5687aa5c69c157de632cf",
+    "sourceTxHash": "0xe19e9e07dc3a64e6137bd915810d9f43da44fcf57d5ad8f5b39cc63c48ec3c55",
+    "destinationTxHash": null,
+    "status": "delivered",
+    "metadata": {
+      "name": "CrossChainNFT #1",
+      "description": "Genesis test NFT bridged from Avalanche Fuji to Arbitrum Sepolia via Chainlink CCIP.",
+      "image": "ipfs://bafybeigdyrzt5sfp7udm7hu76uh7y26nf3efuylqabf3oclgtqy55fbzdi/1.png"
+    },
+    "timestamp": "2026-07-04T18:32:10.118Z"
+  }
+]
