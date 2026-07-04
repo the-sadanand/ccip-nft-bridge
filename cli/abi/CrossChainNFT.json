@@ -1,0 +1,13 @@
+[
+  "function ownerOf(uint256 tokenId) external view returns (address)",
+  "function tokenURI(uint256 tokenId) external view returns (string memory)",
+  "function exists(uint256 tokenId) external view returns (bool)",
+  "function bridge() external view returns (address)",
+  "function owner() external view returns (address)",
+  "function approve(address to, uint256 tokenId) external",
+  "function getApproved(uint256 tokenId) external view returns (address)",
+  "function balanceOf(address owner) external view returns (uint256)",
+  "function name() external view returns (string memory)",
+  "function symbol() external view returns (string memory)",
+  "event Transfer(address indexed from, address indexed to, uint256 indexed tokenId)"
+]

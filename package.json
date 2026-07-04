@@ -1,0 +1,30 @@
+{
+  "name": "ccip-nft-bridge-cli",
+  "version": "1.0.0",
+  "description": "CLI tool for bridging NFTs cross-chain using Chainlink CCIP burn-and-mint pattern",
+  "private": true,
+  "main": "cli/transfer.js",
+  "scripts": {
+    "transfer": "node cli/transfer.js",
+    "status": "node cli/status.js",
+    "test": "echo \"See test/ directory - run: forge test\" && exit 0"
+  },
+  "keywords": [
+    "chainlink",
+    "ccip",
+    "nft",
+    "bridge",
+    "cross-chain",
+    "ethers",
+    "foundry"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "ethers": "^6.13.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

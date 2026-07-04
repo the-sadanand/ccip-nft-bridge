@@ -1,0 +1,18 @@
+[
+  "function sendNFT(uint64 destinationChainSelector, address receiver, uint256 tokenId) external returns (bytes32 messageId)",
+  "function estimateTransferCost(uint64 destinationChainSelector) external view returns (uint256)",
+  "function remoteBridges(uint64 chainSelector) external view returns (address)",
+  "function allowlistedDestinationChains(uint64 chainSelector) external view returns (bool)",
+  "function allowlistedSourceChains(uint64 chainSelector) external view returns (bool)",
+  "function processedMessages(bytes32 messageId) external view returns (bool)",
+  "function nft() external view returns (address)",
+  "function router() external view returns (address)",
+  "function linkToken() external view returns (address)",
+  "function owner() external view returns (address)",
+  "function withdrawLink(address to, uint256 amount) external",
+  "function allowlistDestinationChain(uint64 chainSelector, bool allowed) external",
+  "function allowlistSourceChain(uint64 chainSelector, bool allowed) external",
+  "function setRemoteBridge(uint64 chainSelector, address bridgeAddress) external",
+  "event NFTSent(bytes32 indexed messageId, uint64 indexed destinationChainSelector, address receiver, uint256 tokenId, string tokenURI)",
+  "event NFTReceived(bytes32 indexed messageId, uint64 indexed sourceChainSelector, address receiver, uint256 tokenId, string tokenURI)"
+]

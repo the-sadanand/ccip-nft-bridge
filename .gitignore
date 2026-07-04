@@ -1,0 +1,19 @@
+# Foundry
+out/
+cache/
+broadcast/
+lib/
+
+# Node
+node_modules/
+npm-debug.log*
+
+# Env / secrets
+.env
+!.env.example
+
+# OS
+.DS_Store
+
+# Logs (keep the directory, ignore rotated files)
+logs/*.log.*

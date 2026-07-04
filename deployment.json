@@ -1,0 +1,10 @@
+{
+  "avalancheFuji": {
+    "nftContractAddress": "0x862566F9d951009111c7807B7Bf248E96d9dE125",
+    "bridgeContractAddress": "0x1Fc298e945541f69647ae43606f7Ec86417A2915"
+  },
+  "arbitrumSepolia": {
+    "nftContractAddress": "0x80903027C7Be634bd10B1B564C9360e2D856ae30",
+    "bridgeContractAddress": "0xC74Ed3c2632B01a51940fD41F4A139b7078A63f2"
+  }
+}
